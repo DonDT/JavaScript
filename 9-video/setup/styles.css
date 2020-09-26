@@ -254,8 +254,8 @@ h1 {
 .slide .switch {
   left: 50%;
 }
-/* header after */
-/* header::after {
+/* Overlay style */
+header::after {
   content: "";
   position: absolute;
   top: 0;
@@ -264,4 +264,4 @@ h1 {
   height: 100%;
   background: rgba(0, 0, 0, 0.7);
   z-index: -1;
-} */
+}

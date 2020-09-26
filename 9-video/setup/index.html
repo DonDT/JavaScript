@@ -9,7 +9,20 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>video project</h1>
+    <div class="preloader">
+      <img src="./preloader.gif" alt="preloader" />
+    </div>
+    <header>
+      <h1>video project</h1>
+      <video controls muted autoplay loop class="video-container">
+        <source src="./video.mp4" type="video/mp4" />
+      </video>
+      <button class="switch-btn">
+        <span>Play</span>
+        <span>pause</span>
+        <span class="switch"></span>
+      </button>
+    </header>
     <!-- javascript -->
     <script src="app.js"></script>
   </body>
